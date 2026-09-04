@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ChatGPTMemoryGuard</AssemblyName>
+    <RootNamespace>ChatGPTMemoryGuard</RootNamespace>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Version>1.1.0</Version>
+    <Product>ChatGPT Memory Guard</Product>
+    <Description>独立监测 ChatGPT 桌面应用内存并在接近 4GB 前提醒。</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChatGPTMemoryGuard.Core\ChatGPTMemoryGuard.Core.csproj" />
+  </ItemGroup>
+</Project>
